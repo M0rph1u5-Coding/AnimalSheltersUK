@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #F09D51;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  padding: 14px 26px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #775B59;
+}
+
+.active {
+  background-color: #729EA1;
+}
+
+.form {
+  padding-top: 40px;
+  padding-left: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+.report{
+  padding-top: 35px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.impact_report{
+  position: center;
+  width: 250px;
+  height: 500px;
+}
